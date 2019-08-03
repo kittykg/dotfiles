@@ -54,3 +54,6 @@ alias nsbash="nvim ~/.bash_profile && source ~/.bash_profile"
 alias ninit="nvim ~/.config/nvim/init.vim"
 
 alias vim="nvim"
+
+alias vtmux='nvim ~/.tmux.conf'
+alias stmux='tmux source-file ~/.tmux.conf'
