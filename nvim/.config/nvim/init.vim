@@ -6,6 +6,7 @@ Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install' }
 Plug 'tmux-plugins/vim-tmux'
+Plug 'airblade/vim-gitgutter'
 
 call plug#end()
 
