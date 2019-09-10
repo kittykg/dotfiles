@@ -57,3 +57,18 @@ alias vim="nvim"
 
 alias vtmux='nvim ~/.tmux.conf'
 alias stmux='tmux source-file ~/.tmux.conf'
+
+day=$(date +"%u")
+if ((day == 3)); then
+    echo "It's Wednesday my dudes"
+    echo "      -----"
+    echo "     /       \\__"
+    echo "    /            \\"
+    echo "   /  0  0        |"
+    echo "  |    ..          |"
+    echo "  /|        _/    /"
+    echo " / .\\_____/      /"
+    echo "/V\\|    \\___||__/"
+    echo "             = /"
+    echo "            / V"
+f
