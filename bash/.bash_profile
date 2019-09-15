@@ -70,4 +70,4 @@ if ((day == 3)); then
     echo "/V\\|    \\___||__/"
     echo "             = /"
     echo "            / V"
-f
+fi
