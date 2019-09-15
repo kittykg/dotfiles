@@ -45,11 +45,10 @@ export CPPFLAGS="-I/usr/local/opt/openssl/include"
 alias gs="git status"
 alias gb="git branch"
 alias gc="git commit"
-alias gp="git pull --rebase --autostash upstream master"
 
-alias nbash="nvim ~/.bash_profile"
+alias vbash="nvim ~/.bash_profile"
 alias sbash="source ~/.bash_profile"
-alias nsbash="nvim ~/.bash_profile && source ~/.bash_profile"
+alias vsbash="nvim ~/.bash_profile && source ~/.bash_profile"
 
 alias ninit="nvim ~/.config/nvim/init.vim"
 

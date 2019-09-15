@@ -7,6 +7,10 @@ Plug 'plasticboy/vim-markdown'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install' }
 Plug 'tmux-plugins/vim-tmux'
 Plug 'airblade/vim-gitgutter'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'tag': '*', 'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 
 call plug#end()
 
@@ -26,6 +30,8 @@ set textwidth=80
 set colorcolumn=+1
 hi ColorColumn guibg=#2d2d2d ctermbg=246
 set list listchars=tab:»·,nbsp:+,trail:·,extends:→,precedes:←
+
+set updatetime=100
 
 nnoremap <Left> :echo "No left for you!"<CR>
 vnoremap <Left> :<C-u>echo "No left for you!"<CR>
